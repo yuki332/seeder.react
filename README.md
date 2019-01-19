@@ -1,16 +1,21 @@
 # seeder.react
 
+This is a seeder for any project that uses React.js and Sass.
+It uses Webppack4 but manages js and css file differently.
+
+<hr>
+
 ### Directory Structure
 
-src -- sorce directory (all raw js / sass file here)
+src --> sorce directory (all raw js / sass files here)
 
-public -- all static files such as `.html`
+public --> all static files here
 
-dist -- all compiled files
+dist --> all compiled files here
 
 [Reference Website](https://blog.usejournal.com/creating-a-react-app-from-scratch-f3c693b84658)
 
-### usage
+### Usage
 
 Run `npm install` to install all dependencies.
 It uses Webpack4 and babel to compile React.
