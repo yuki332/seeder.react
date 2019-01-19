@@ -9,7 +9,12 @@ public -- all static files such as `.html`
 dist -- all compiled files
 
 [Reference Website](https://blog.usejournal.com/creating-a-react-app-from-scratch-f3c693b84658)
+
 ### usage
-Run audited 9477 packages in 6.444s
-found 0 vulnerabilities
-Run `npm install`
+
+Run `npm install` to install all dependencies.
+It uses Webpack4 and babel to compile React.
+
+Run `npx webpack` after `npm install` has done successfully.
+
+`main.js` and `main.css` will be created inside of `dist` directory by running `npx webpack` (this command is just test command. you will use `npm run watch` for develop).
