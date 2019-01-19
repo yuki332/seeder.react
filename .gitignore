@@ -224,3 +224,5 @@ GitHub.sublime-settings
 # End of https://www.gitignore.io/api/git,node,macos,sublimetext
 
 package-lock.json
+dist/*.js
+dist/*.css
