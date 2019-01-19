@@ -1,11 +1,12 @@
 import React, { Component } from "react";
+import Example from "./example.js";
 
 export default class App extends Component {
   render(){
     return(
-      <div className="App">
-        <h1 className="app-x"> Hello, World! </h1>
-        <p>aaaaa</p>
+      <div>
+        <h1 className="title"> Hello, World! </h1>
+        <Example color="blue" />
       </div>
     );
   }

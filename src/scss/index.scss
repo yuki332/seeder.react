@@ -1,1 +1,15 @@
-@import "app.scss";
+@import "settings.variables";
+@import "example";
+
+// ////////////////////////////////////////////////////////////
+// example of scss structure
+// check out https://github.com/yuki332/original_css_template
+// ////////////////////////////////////////////////////////////
+// @import "settings"; // variables
+// @import "tools"; // mixins
+// @import "generic"; // reset, ground 0 style
+// @import "elements"; // raw elements e.g. h1, p, form etc..
+// @import "objects"; // no cosmetic style e.g. layout related styles
+// @import "components"; // cosmetic style e.g. button, header, nav
+// @import "trumps"; // helper (here you can use !important)
+// @import "pages"; // page specific decoration
